@@ -1,20 +1,41 @@
-<div align="center">
+# NutriAção — Landing Page Institucional
 
-# ☕ Time Café
+Landing page desenvolvida para a **NutriAção**, Empresa Júnior do curso de Nutrição da **UFCSPA — Universidade Federal de Ciências da Saúde de Porto Alegre**.
 
-### Projeto desenvolvido durante o processo trainee da Compact JR. — UFSM
-
-<br>
-
-<img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExbm1hemdtamRrOTgxcDZqZXFkbWpzeTJpNWNvemhveWw1NG9hYWljYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/687qS11pXwjCM/giphy.gif" width="350" alt="Time Café">
-
-</div>
+O projeto tem como objetivo apresentar a empresa, seus serviços, trabalhos realizados, diferenciais e canais de contato por meio de uma interface moderna, responsiva e interativa.
 
 ## Sobre o projeto
 
-Este projeto foi desenvolvido pelo **Time Café** (o melhor time) durante o processo trainee da **Compact JR.**, Empresa Júnior da UFSM.
+A landing page foi desenvolvida com foco na identidade visual da NutriAção, buscando transmitir uma imagem profissional, acadêmica e ao mesmo tempo acessível.
 
-A proposta foi criar uma landing page para a **NutriAção**, Empresa Júnior de Nutrição da UFCSPA, apresentando seus serviços, portfólio, diferenciais e formas de contato de maneira responsiva e visualmente agradável.
+O site apresenta informações sobre a empresa e suas principais áreas de atuação, incluindo:
+
+- Coffee Break;
+- Rotulagem Nutricional;
+- Fichas Técnicas;
+- Planos de Coffee Break;
+- Portfólio de trabalhos realizados;
+- Depoimentos de clientes;
+- Diferenciais da empresa;
+- Canais de contato.
+
+A interface utiliza as cores institucionais da NutriAção, fotografias reais da equipe e dos serviços realizados, além de animações e interações sutis para tornar a navegação mais dinâmica.
+
+## Funcionalidades
+
+- Layout totalmente responsivo;
+- Menu de navegação fixo com efeito glass;
+- Navegação por âncoras entre as seções;
+- Menu adaptado para dispositivos móveis;
+- Animações de entrada utilizando GSAP;
+- Animações ativadas durante o scroll;
+- Efeitos de interação nos cards;
+- Portfólio com fotografias dos trabalhos realizados;
+- Seção de planos de Coffee Break;
+- Depoimentos de clientes;
+- Botões de contato direto;
+- Integração com WhatsApp, Instagram e e-mail;
+- Suporte a `prefers-reduced-motion` para acessibilidade.
 
 ## Tecnologias utilizadas
 
@@ -22,4 +43,19 @@ A proposta foi criar uma landing page para a **NutriAção**, Empresa Júnior de
 - CSS3
 - JavaScript
 - GSAP
-- Git & GitHub
+- Git
+- GitHub
+
+## Estrutura do projeto
+
+```text
+.
+├── main.html
+├── assets/
+│   ├── css/
+│   │   └── styles.css
+│   ├── js/
+│   │   └── app.js
+│   └── img/
+│       └── imagens utilizadas no site
+└── README.md
